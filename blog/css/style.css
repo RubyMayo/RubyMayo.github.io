@@ -95,7 +95,7 @@ article {
 aside {
     grid-column: 2;
     grid-row: 1;
-    border-left: 0.125rem solid ;
+    border-left: 0.125rem solid;
     border-color: gray;
     padding-left: 1rem;
 }
@@ -107,7 +107,16 @@ hr {
 }
 
 footer {
-    margin-top: 3rem;
+    margin-top: 5rem;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+    text-align: right;
 }
 
 /*--------IMPORTED FONTS -------*/
@@ -234,6 +243,7 @@ figcaption {
 
 a {
     text-decoration: none;
+    color: gray;
 }
 
 button {
