@@ -137,6 +137,7 @@ h1, h2, h3 {
 }
 
 h1 {
+
     font-size: 3rem;
     transform: rotate(-5deg);
 }
@@ -155,6 +156,9 @@ p {
     
 }
 
+.he {
+    text-shadow: 0.125rem 0.125rem 0.125rem #313C40;
+}
 
 .highlight {
     font-family: ultra;
@@ -165,7 +169,6 @@ p {
     border-radius: 0.5rem;
     letter-spacing: 0.25rem;
     box-shadow: 0.25rem 0.25rem 0.125rem #313C40;
-    text-shadow: 
 }
 
 
@@ -220,7 +223,14 @@ a {
 }
 
 button {
-    
+    text-transform: uppercase;
+    font-family: ultra;
+    background-color: #27476E;
+    display: inline-block;
+    padding: 1rem .75rem;
+    color: #EEEEDD;
+    border-radius: 0.5rem;
+    box-shadow: 0.25rem 0.25rem 0.125rem #313C40;
 }
 
 .expand {
