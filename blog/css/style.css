@@ -90,7 +90,6 @@ article {
 
 .subsection {
     display: flex;
-    
 }
 
 aside {
@@ -140,7 +139,6 @@ h1, h2, h3 {
 h1 {
     font-size: 3rem;
     transform: rotate(-5deg);
-      
 }
 
 h2 {
@@ -178,7 +176,15 @@ nav {
     border-bottom: 1px solid black;
 }
 
+.blog {
+    cursor: not-allowed;
+    transform: rotate(5deg);
+    color: black
+}
+
 nav a {
+    color: #2F4F4F;
+    text-decoration: none;
     display: inline-block;
     padding: 1rem 2rem;
     margin-bottom: 0.5rem;
@@ -188,9 +194,9 @@ nav a {
 /* -------- FIGURES AND IMAGES ---------*/
 
 figure {
-    margin: 0rem;
+    margin: 0rem 1rem 3rem 0rem;
+    background-color: #EEEEDD;
 }
-
 
 img {
     width: 100%;
@@ -202,8 +208,9 @@ img {
     width: 30%;
 }
 
+
 figcaption {
-    
+    margin: 1rem 0rem 1rem 1rem;
 }
 
 /* -------- LINKS ---------*/
@@ -219,22 +226,3 @@ button {
 .expand {
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
